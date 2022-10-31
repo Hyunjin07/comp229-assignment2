@@ -1,0 +1,26 @@
+1. signup for mongodb atlas
+2. create project-->COMP229-WEEK6
+cluster is group of servers that represeting your MongoDB database
+3. security Database access
+create new user
+4. Create Database
+create cluster
+username:newuser
+f1azSIhlElMw3bH9
+
+
+
+99.244.135.74/32
+
+Creaate Database :book_store
+collecitons:books
+click on insert document
+
+now click on commndline tool
+connect instruction
+select connect your application
+
+copy URI and paste in the application config-->db.js
+ URI: "mongodb+srv://newuser:f1azSIhlElMw3bH9@mongodbserver.ea42c0v.mongodb.net/book_store?retryWrites=true&w=majority",
+
+modify password and database name and test the application

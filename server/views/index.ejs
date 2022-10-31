@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/main_nav.ejs') %>
+<!-- Main Content -->
+  <section id="home">
+        <div class="home__container">
+         <h1>Welcome to the <%= title  %> Page</h1>
+        <h1 class="home__description">
+            I am a student of software enginniring technology in Toronto
+        </h1>
+        </div>
+        </section>
+         <div class="organize">
+            <% if(title == "Home"){%>
+              <%- include partials/home %>
+            <%}else if(title =="About"){%>
+              <%- include partials/about %>
+            <%} else if(title=="Products"){%>
+              <%- include partials/project%>
+            <%} else if(title=="Services"){%>
+              <%- include partials/services%>
+             <%} else if(title == login) {%>
+               <% include auth/login%>
+            <%} %>
+          </div>
+
+
+<%- include('partials/bottom_nav.ejs')%>
+<%- include('partials/footer.ejs') %>
+

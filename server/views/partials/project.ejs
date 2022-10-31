@@ -1,0 +1,109 @@
+<!-- Project page
+Name: Hyujin Park
+Student ID: 301157840
+Date: 2022/10/02
+-->
+<%- include('partials/header.ejs') %>
+
+
+
+<section id="about" class="section section__container">
+        <h1>What Is My Experience</h1>
+        <div class="about__majors">
+            <div class="major">
+              <div class="major__icon">
+                <i class="fa-sharp fa-solid fa-building-columns"></i>
+              </div>
+              <h2 class="major__title">College</h2>
+              <p class="major__description">
+                  HTML,CSS,JavaScript
+              </p>
+            </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h2 class="major__title">Personal Project</h2>
+            <div class="major__description">
+              HTML, CSS, JavaScript, TypeScript
+            </div>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h2 class="major__title">Back-end</h2>
+            <p class="major__description">
+              Java, JavaScript, C#
+            </p>
+          </div>
+        </div>
+    </div>
+    </section>
+<section id="work" class="section">
+  <div class="section__container">
+   <h1>My Project</h1>
+
+   <div class="work__categories">
+     <button class="category__btn active selected" data-filter="*">
+       Front-End <span class="category__count">3</span>
+     </button>
+     
+   </div>
+
+   <div class="work__projects">
+     
+    <a href="https://github.com/Hyunjin07/COMP125-Assignment2" 
+     class="project" 
+     target="blank"
+     data-type="Academic-Project"
+     >
+       <img
+         src="/Assets/images/assignment2.png"
+         alt="Table-calculator"
+         class="project__img"
+       />
+       <div class="project__description">
+         <h3>Table Calculator</h3>
+         <span> HTML, CSS, JavaScript</span>
+       </div>
+     </a>
+     
+     
+     <a
+       href="https://github.com/Hyunjin07/COMP125-Assignment3"
+       class="project"
+       target="blank"
+       data-type="Academic-Project"
+     >
+       <img
+         class="project__img"
+         src="/Assets/images/Assignement3.png"
+         alt="Art-Gallary"
+       />
+       <div class="project__description">
+         <h3>Art-Gallary</h3>
+         <span>HTML, CSS, JavaScript</span>
+       </div>
+     </a>
+     
+     <a
+       href="https://github.com/Hyunjin07/COMP125-Assignment4"
+       class="project"
+       target="blank"
+       data-type="Academic-Project"
+     >
+       <img 
+       class="project__img" 
+       src="/Assets/images/assignment4.png" 
+       alt="register form" 
+       />
+       <div class="project__description">
+         <h3>Register Form</h3>
+         <span>HTML, CSS, JavaScript</span>
+       </div>
+     </a>
+      </div>
+  </div>
+ </section>
+
