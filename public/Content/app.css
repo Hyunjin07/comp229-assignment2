@@ -563,6 +563,53 @@ Date: 2022/10/02
   
   .resister {
     text-decoration: none;
-    color: pink;
+    color: #fe918d;
 }
 
+.btn-success {
+  color: #fff;
+  background-color: #FE978C;
+  border-color: #FE978C;
+}
+
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #fdefab;
+  border-color: #fdefab;
+}
+
+.btn-warning {
+  color: white;
+  background-color: #fdefab;
+  border-color: #fdefab;
+}
+.btn-warning:hover {
+  color: #fff;
+  background-color: #FE978C;
+  border-color: #FE978C;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color:  #fdefab;
+  border-color:  #fdefab;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #FE978C;
+  border-color: #FE978C;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #FE978C;
+  border-color: #FE978C;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color:  #fdefab;
+  border-color:  #fdefab;
+}
