@@ -1,3 +1,10 @@
+/*
+File name: assignment2 comp229(301157840)
+Student name: Hyunjin Park
+Student Id: 301157840
+Date: 2022/10/31
+*/
+
 // installed 3rd party packages
 let createError = require("http-errors");
 let express = require("express");

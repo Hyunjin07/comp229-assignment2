@@ -1,3 +1,9 @@
+/*
+File name: assignment2 comp229(301157840)
+Student name: Hyunjin Park
+Student Id: 301157840
+Date: 2022/10/31
+*/
 let express = require("express");
 let router = express.Router();
 let mongoose = require("mongoose");

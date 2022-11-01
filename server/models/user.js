@@ -1,3 +1,10 @@
+/*
+File name: assignment2 comp229(301157840)
+Student name: Hyunjin Park
+Student Id: 301157840
+Date: 2022/10/31
+*/
+
 // require modules for the User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
